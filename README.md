@@ -27,34 +27,30 @@ All match and player stats are scraped directly from [HLTV.org](https://www.hltv
 The processed datasets (`matches_data` and `players_data`) were further transformed in Power BI for visualization and analysis.  
 An additional **Map** table was created to enrich the data model and enable map-based analysis. Also **Teams** table was created to use a measure counting the number of teams participating in the tournaments.
 
-### Dashboard Pages
+## Dashboard Pages
 
 1. **Overall Insights**
    - High-level overview of tournaments, matches, and maps.
    - Key metrics such as map distribution, and team performance trends.
 
-#### Overall Insights Page:
+### Overall Insights Page:
 ![Sample Excel Screenshot](https://github.com/M4teusz00/HLTV-dashboard/blob/a41254e078649777a89059bd152f5f53c04e317d/Overall_Insights.png)
 
 2. **Players Insights**
    - Player-level statistics including K-D, ADR, Swing, and Rating 3.0.
    - Comparative analysis across players, teams, and maps.
    - Highlights top performers and consistency metrics.
-   - 
-#### Players Insights Page:
+     
+### Players Insights Page:
 ![Sample Excel Screenshot](https://github.com/M4teusz00/HLTV-dashboard/blob/a41254e078649777a89059bd152f5f53c04e317d/Players_Insights.png)
 
 3. **Teams Insights**
    - Aggregated team statistics and head-to-head comparisons.
    - Trends in performance across different events and maps.
    - Insights into team strengths, weaknesses, and overall rating distributions.
-   - 
-#### Team Insights Page:
+     
+### Team Insights Page:
 ![Sample Excel Screenshot](https://github.com/M4teusz00/HLTV-dashboard/blob/a41254e078649777a89059bd152f5f53c04e317d/Teams_Insights.png)
 
-### Purpose of the project
-The dashboards provide an **interactive way to explore the data**:
-- Identify standout players and teams.
-- Analyze performance by event, map, or date.
-- Support deeper insights into competitive CS performance beyond raw stats.
+
 
