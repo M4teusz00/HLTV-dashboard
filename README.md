@@ -1,5 +1,5 @@
-## HLTV-dashboard
-## Project Overview – Power BI Dashboard
+# HLTV-dashboard – Power BI 
+## Project Overview 
 
 This project provides an interactive Power BI dashboard for exploring competitive Counter-Strike match data.  
 The dashboard is built on processed datasets (`matches_data` and `players_data`) scraped from [HLTV.org](https://www.hltv.org) using the HLTV-scraper repository: [HLTV Scraper](https://github.com/M4teusz00/HLTV-scraper).
