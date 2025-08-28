@@ -27,7 +27,7 @@ All match and player stats are scraped directly from [HLTV.org](https://www.hltv
 The processed datasets (`matches_data` and `players_data`) were further transformed in Power BI for visualization and analysis.  
 An additional **Map** table was created to enrich the data model and enable map-based analysis. Also **Teams** table was created to use a measure counting the number of teams participating in the tournaments.
 
-## Dashboard Pages
+## Dashboard Pages (Tournament_Analysis.pbix)
 
 1. **Overall Insights**
    - High-level overview of tournaments, matches, and maps.
