@@ -52,7 +52,9 @@ This horizontal bar chart ranks countries by their average player performance ra
 **Top Countries:**
 *   **Russia:** ~1.15
 *   **Mongolia:** ~1.13
+  
 etc.
+
 2. **Matches per Map**
 This horizontal bar chart displays the number of competitive matches played on various CS2 maps, indicating map popularity and usage in the analyzed events.
 **Top Maps:**
@@ -60,12 +62,15 @@ This horizontal bar chart displays the number of competitive matches played on v
 *   **Inferno:** 23 matches
 *   **Nuke:** 23 matches
 *   **Ancient:** 18 matches
+  
 etc.
+
 3. **Cards**
 *   **Teams:** 18 - total teams that participate in the events
 *   **Matches** 52 - total matches that have been played in the events
 *   **Matches** 123 - total maps that have been played in the events
 *   **Matches** Mirage - most played map in the events
+  
 4. **Map**
 A world map shows the geographic origin (country) of all participating players.
 
@@ -82,16 +87,20 @@ This page of the dashboard is dedicated to analyzing player performance through 
 *   **Swing (Impact):** A metric likely quantifying a player's ability to win rounds through multi-kills and clutches.
 
 #### Visualizations:
-1.  **Highest ADR Players:** A ranked list of the top 8 players by ADR, led by `donk` (101,5).
-2.  **Lowest ADR Players:** A ranked list of the 9 players with the lowest ADR values.
-3.  **Scatter Plot (Player Rating 3.0 vs ADR):**
+**1.  Highest ADR Players:** A ranked list of the top 8 players by ADR, led by `donk` (101,5).
+   
+**2.  Lowest ADR Players:** A ranked list of the 9 players with the lowest ADR values.
+   
+**3.  Scatter Plot (Player Rating 3.0 vs ADR):**
     *   **X-Axis:** ADR (Average Damage per Round)
     *   **Y-Axis:** Rating 3.0
     *   **Shows:** The strong positive correlation between damage dealt and overall rating. Each point is a player.
-4.  **Clustered Bar Chart (Total Kills/Deaths):**
+      
+**4.  Clustered Bar Chart (Total Kills/Deaths):**
     *   **Bars** 2 bars for each player.
     *   **Shows:** The total number of Kills and Deaths and the balance between them. A green bar represents kills, and red represents deaths.
-5.  **Performance Comparison Table:** A detailed table for players comparing Rating 3.0, ADR, K/D Ratio, and Impact. This table shows a strong correlation between high ADR and a high overall rating.
+      
+**5.  Performance Comparison Table:** A detailed table for players comparing Rating 3.0, ADR, K/D Ratio, and Impact. This table shows a strong correlation between high ADR and a high overall rating.
 
 
      
