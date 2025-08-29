@@ -36,15 +36,16 @@ The dashboard includes interactive filters to customize the view:
 *   **Team:** 
 *   **Player:** 
 *   **Map:**
+  
 On the `Players Insights` and `Teams Insights` pages, the **Maps** filter has an additional `All maps` option, which provides values for entire matches (bo3 and bo5), rather than just for one single map.
 
-1. **Overall Insights**
+### 1. **Overall Insights**
 The dashboard provides a comprehensive view of event data, including team and player performance by country, map popularity, and participant information.
 
-## Overall Insights Page:
+#### Overall Insights Page:
 ![Sample Excel Screenshot](https://github.com/M4teusz00/HLTV-dashboard/blob/a41254e078649777a89059bd152f5f53c04e317d/Overall_Insights.png)
 
-### Data Visualizations
+#### Data Visualizations
 
 
 ### 1. Rating 3.0 by Country
