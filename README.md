@@ -40,15 +40,15 @@ The dashboard includes interactive filters to customize the view:
 On the `Players Insights` and `Teams Insights` pages, the **Maps** filter has an additional `All maps` option, which provides values for entire matches (bo3 and bo5), rather than just for one single map.
 
 ### 1. **Overall Insights**
-The dashboard provides a comprehensive view of event data, including team and player performance by country, map popularity, and participant information.
+The first page provides an overall view of event data, including playerw performance by country, map popularity, and participant information.
 
 #### Overall Insights Page:
 ![Sample Excel Screenshot](https://github.com/M4teusz00/HLTV-dashboard/blob/a41254e078649777a89059bd152f5f53c04e317d/Overall_Insights.png)
 
-#### Data Visualizations
+#### Visualizations
 
 
-### 1. Rating 3.0 by Country
+#### 1. Rating 3.0 by Country
 This horizontal bar chart ranks countries by their average player performance rating (where ~1.0 is considered average). The visualization shows only countries that have 3 or more players.
 
 **Top Countries:**
@@ -56,7 +56,7 @@ This horizontal bar chart ranks countries by their average player performance ra
 *   **Mongolia:** ~1.13
 etc.
 
-### 2. Matches per Map
+#### 2. Matches per Map
 This horizontal bar chart displays the number of competitive matches played on various CS2 maps, indicating map popularity and usage in the analyzed events.
 
 **Top Maps:**
@@ -66,26 +66,40 @@ This horizontal bar chart displays the number of competitive matches played on v
 *   **Ancient:** 18 matches
 etc.
 
-### 2. Cards
+#### 3. Cards
 *   **Teams:** 18 - total teams that participate in the events
 *   **Matches** 52 - total matches that have been played in the events
 *   **Matches** 123 - total maps that have been played in the events
 *   **Matches** Mirage - most played map in the events
 
+#### 4. Map
+A world map shows the geographic origin (country) of all participating players.
 
-
-2. **Players Insights**
-   - Player-level statistics including K-D, ADR, Swing, and Rating 3.0.
-   - Comparative analysis across players, teams, and maps.
-   - Highlights top performers and consistency metrics.
+### 2. **Players Insights**
+This page of the dashboard is dedicated to analyzing player performance through two key metrics: ADR (Average Damage per Round) and Rating 3.0 (a comprehensive performance rating). It presents this data through ranked lists and a detailed table for comparison.
      
-### Players Insights Page:
+#### Players Insights Page:
 ![Sample Excel Screenshot](https://github.com/M4teusz00/HLTV-dashboard/blob/a41254e078649777a89059bd152f5f53c04e317d/Players_Insights.png)
 
-3. **Teams Insights**
-   - Aggregated team statistics and head-to-head comparisons.
-   - Trends in performance across different events and maps.
-   - Insights into team strengths, weaknesses, and overall rating distributions.
+#### Metrics Featured:
+*   **ADR (Average Damage per Round):** Measures the average amount of damage a player inflicts per round.
+*   **Rating 3.0:** A holistic performance rating that incorporates kills, deaths, multi-kills, and clutch situations.
+*   **K/D Ratio:** Kill-to-Death ratio, indicating fragging efficiency.
+*   **Swing (Impact):** A metric likely quantifying a player's ability to win rounds through multi-kills and clutches.
+
+#### Visualizations:
+1.  **Highest ADR Players:** A ranked list of the top 8 players by ADR, led by `donk` (101,5).
+2.  **Lowest ADR Players:** A ranked list of the 9 players with the lowest ADR values.
+3.  **Scatter Plot (Player Rating 3.0 vs ADR):**
+    *   **X-Axis:** ADR (Average Damage per Round)
+    *   **Y-Axis:** Rating 3.0
+    *   **Shows:** The strong positive correlation between damage dealt and overall rating. Each point is a player.
+4.  **Clustered Bar Chart (Total Kills/Deaths):**
+    *   **Bars** 2 bars for each player.
+    *   **Shows:** The total number of Kills and Deaths and the balance between them. A green bar represents kills, and red represents deaths.
+5.  **Performance Comparison Table:** A detailed table for players comparing Rating 3.0, ADR, K/D Ratio, and Impact. This table shows a strong correlation between high ADR and a high overall rating.
+
+
      
 ### Team Insights Page:
 ![Sample Excel Screenshot](https://github.com/M4teusz00/HLTV-dashboard/blob/a41254e078649777a89059bd152f5f53c04e317d/Teams_Insights.png)
