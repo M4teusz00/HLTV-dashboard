@@ -74,19 +74,19 @@ etc.
 **4. Map**
 A world map shows the geographic origin (country) of all participating players.
 
-### 2. **Players Insights**
+## 2. **Players Insights**
 This page of the dashboard is dedicated to analyzing player performance through two key metrics: ADR (Average Damage per Round) and Rating 3.0 (a comprehensive performance rating). It presents this data through ranked lists and a detailed table for comparison.
      
-#### Players Insights Page:
+### Players Insights Page:
 ![Sample Excel Screenshot](https://github.com/M4teusz00/HLTV-dashboard/blob/a41254e078649777a89059bd152f5f53c04e317d/Players_Insights.png)
 
-#### Metrics Featured:
+### Metrics Featured:
 *   **ADR (Average Damage per Round):** Measures the average amount of damage a player inflicts per round.
 *   **Rating 3.0:** A holistic performance rating that incorporates kills, deaths, multi-kills, and clutch situations.
 *   **K/D Ratio:** Kill-to-Death ratio, indicating fragging efficiency.
 *   **Swing (Impact):** A metric likely quantifying a player's ability to win rounds through multi-kills and clutches.
 
-#### Visualizations:
+### Visualizations:
 **1.  Highest ADR Players:** A ranked list of the top 8 players by ADR, led by `donk` (101,5).
    
 **2.  Lowest ADR Players:** A ranked list of the 9 players with the lowest ADR values.
@@ -102,10 +102,42 @@ This page of the dashboard is dedicated to analyzing player performance through 
       
 **5.  Performance Comparison Table:** A detailed table for players comparing Rating 3.0, ADR, K/D Ratio, and Impact. This table shows a strong correlation between high ADR and a high overall rating.
 
+## 2. **Team Insights**
+This dashboard page provides a comprehensive analysis of team performance metrics for the CS2 event, focusing on overall rating, round impact, and damage output.
 
-     
 ### Team Insights Page:
 ![Sample Excel Screenshot](https://github.com/M4teusz00/HLTV-dashboard/blob/a41254e078649777a89059bd152f5f53c04e317d/Teams_Insights.png)
 
+### Visualizations:
+
+**1. Rating 3.0 by Team**
+**Teams ranked by their average Players Rating 3.0**:
+- **Spirit**: 1.15
+- **The MongolZ**: 1.13
+- **FaZe**: 1.13
+- **Natus Vincere**: 1.11
+  
+etc.
+
+**2. Team Rating 3.0 vs Swing**
+**Visualizes the relationship between:**
+- **Y-Axis**: Team Average Rating 3.0 (overall performance)
+- **X-Axis**: Team Swing (round impact metric)
+- **Shows**: Correlation between team rating and round impact. Each point is a team.
+
+### 3. Detailed Team Statistics Table
+A table for teams comparing Kills, Deaths, Swing, ADR and Rating 3.0. Liquid has the highest average kills (17) from the last big LAN tournaments.
+
+### 4. ADR by Team
+**Teams ranked by Average Damage per Round**:
+1. **Spirit**: 78.3
+2. **The MongolZ**: 76.6
+3. **FaZe**: 74.9
+4. **Natus Vincere**: 74.2
+   
+etc.
+
+## Conclusion
+This dashboard provides a analysis of CS2 esports performance, from individual player impact to overall team statistics. The visualizations and metrics offer valuable insights for analysts, teams, and enthusiasts to understand the key factors driving success in competitive Counter-Strike.
 
 
