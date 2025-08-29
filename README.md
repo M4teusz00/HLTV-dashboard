@@ -1,7 +1,7 @@
 # HLTV-dashboard – Power BI 
 ## Project Overview 
 
-This project provides an interactive Power BI dashboard for exploring competitive Counter-Strike match data.  
+This project involves a data visualization dashboard (3 pages) built to analyze statistics and performance metrics from Counter-Strike 2 (CS2) esports events.
 The dashboard is built on processed datasets (`matches_data` and `players_data`) scraped from [HLTV.org](https://www.hltv.org) using the HLTV-scraper repository: [HLTV Scraper](https://github.com/M4teusz00/HLTV-scraper).
 
 ### Purpose
@@ -28,13 +28,50 @@ The processed datasets (`matches_data` and `players_data`) were further transfor
 An additional **Map** table was created to enrich the data model and enable map-based analysis. Also **Teams** table was created to use a measure counting the number of teams participating in the tournaments.
 
 ## Dashboard Pages (Tournament_Analysis.pbix)
+The dashboard contains 3 pages with different insights: `Overall Insights`, `Players Insights` and `Teams Insights`.
+
+### Data Filters
+The dashboard includes interactive filters to customize the view:
+*   **Event:** 
+*   **Team:** 
+*   **Player:** 
+*   **Map:**
+On the `Players Insights` and `Teams Insights` pages, the **Maps** filter has an additional `All maps` option, which provides values for entire matches (bo3 and bo5), rather than just for one single map.
 
 1. **Overall Insights**
-   - High-level overview of tournaments, matches, and maps.
-   - Key metrics such as map distribution, and team performance trends.
+The dashboard provides a comprehensive view of event data, including team and player performance by country, map popularity, and participant information.
 
-### Overall Insights Page:
+## Overall Insights Page:
 ![Sample Excel Screenshot](https://github.com/M4teusz00/HLTV-dashboard/blob/a41254e078649777a89059bd152f5f53c04e317d/Overall_Insights.png)
+
+### Data Visualizations
+
+
+### 1. Rating 3.0 by Country
+This horizontal bar chart ranks countries by their average player performance rating (where ~1.0 is considered average). The visualization shows only countries that have 3 or more players.
+
+**Top Countries:**
+*   **Russia:** ~1.15
+*   **Mongolia:** ~1.13
+etc.
+
+### 2. Matches per Map
+This horizontal bar chart displays the number of competitive matches played on various CS2 maps, indicating map popularity and usage in the analyzed events.
+
+**Top Maps:**
+*   **Mirage:** 25 matches
+*   **Inferno:** 23 matches
+*   **Nuke:** 23 matches
+*   **Ancient:** 18 matches
+etc.
+
+### 2. Cards
+*   **Teams:** 18 - total teams that participate in the events
+*   **Matches** 52 - total matches that have been played in the events
+*   **Matches** 123 - total maps that have been played in the events
+*   **Matches** Mirage - most played map in the events
+
+
 
 2. **Players Insights**
    - Player-level statistics including K-D, ADR, Swing, and Rating 3.0.
