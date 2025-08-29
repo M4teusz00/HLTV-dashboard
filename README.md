@@ -30,6 +30,12 @@ An additional **Map** table was created to enrich the data model and enable map-
 ## Dashboard Pages (Tournament_Analysis.pbix)
 The dashboard contains 3 pages with different insights: `Overall Insights`, `Players Insights` and `Teams Insights`.
 
+### Metrics Featured:
+*   **ADR (Average Damage per Round):** Measures the average amount of damage a player inflicts per round.
+*   **Rating 3.0:** A holistic performance rating that incorporates kills, deaths, multi-kills, and clutch situations.
+*   **K/D Ratio:** Kill-to-Death ratio, indicating fragging efficiency.
+*   **Swing (Impact):** A metric likely quantifying a player's ability to win rounds through multi-kills and clutches.
+
 ### Data Filters
 The dashboard includes interactive filters to customize the view:
 *   **Event:** 
@@ -81,12 +87,6 @@ This page of the dashboard is dedicated to analyzing player performance through 
      
 ### Players Insights Page:
 ![Sample Excel Screenshot](https://github.com/M4teusz00/HLTV-dashboard/blob/a41254e078649777a89059bd152f5f53c04e317d/Players_Insights.png)
-
-### Metrics Featured:
-*   **ADR (Average Damage per Round):** Measures the average amount of damage a player inflicts per round.
-*   **Rating 3.0:** A holistic performance rating that incorporates kills, deaths, multi-kills, and clutch situations.
-*   **K/D Ratio:** Kill-to-Death ratio, indicating fragging efficiency.
-*   **Swing (Impact):** A metric likely quantifying a player's ability to win rounds through multi-kills and clutches.
 
 ### Visualizations:
 **1.  Highest ADR Players:** A ranked list of the top 8 players by ADR, led by `donk` (101,5).
