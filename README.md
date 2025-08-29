@@ -125,10 +125,10 @@ etc.
 - **X-Axis**: Team Swing (round impact metric)
 - **Shows**: Correlation between team rating and round impact. Each point is a team.
 
-### 3. Detailed Team Statistics Table
+**3. Detailed Team Statistics Table**
 A table for teams comparing Kills, Deaths, Swing, ADR and Rating 3.0. Liquid has the highest average kills (17) from the last big LAN tournaments.
 
-### 4. ADR by Team
+**4. ADR by Team**
 **Teams ranked by Average Damage per Round**:
 1. **Spirit**: 78.3
 2. **The MongolZ**: 76.6
