@@ -39,15 +39,15 @@ The dashboard includes interactive filters to customize the view:
   
 On the `Players Insights` and `Teams Insights` pages, the **Maps** filter has an additional `All maps` option, which provides values for entire matches (bo3 and bo5), rather than just for one single map.
 
-### 1. **Overall Insights**
+## 1. **Overall Insights**
 The first page provides an overall view of event data, including playerw performance by country, map popularity, and participant information.
 
-#### Overall Insights Page:
+### Overall Insights Page:
 ![Sample Excel Screenshot](https://github.com/M4teusz00/HLTV-dashboard/blob/a41254e078649777a89059bd152f5f53c04e317d/Overall_Insights.png)
 
-#### Visualizations:
+### Visualizations:
 
-1. **Rating 3.0 by Country**
+**1. Rating 3.0 by Country**
 This horizontal bar chart ranks countries by their average player performance rating (where ~1.0 is considered average). The visualization shows only countries that have 3 or more players.
 **Top Countries:**
 *   **Russia:** ~1.15
@@ -55,7 +55,7 @@ This horizontal bar chart ranks countries by their average player performance ra
   
 etc.
 
-2. **Matches per Map**
+**2. Matches per Map**
 This horizontal bar chart displays the number of competitive matches played on various CS2 maps, indicating map popularity and usage in the analyzed events.
 **Top Maps:**
 *   **Mirage:** 25 matches
@@ -65,13 +65,13 @@ This horizontal bar chart displays the number of competitive matches played on v
   
 etc.
 
-3. **Cards**
+**3. Cards**
 *   **Teams:** 18 - total teams that participate in the events
 *   **Matches** 52 - total matches that have been played in the events
 *   **Matches** 123 - total maps that have been played in the events
 *   **Matches** Mirage - most played map in the events
   
-4. **Map**
+**4. Map**
 A world map shows the geographic origin (country) of all participating players.
 
 ### 2. **Players Insights**
