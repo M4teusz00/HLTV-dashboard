@@ -48,6 +48,7 @@ The first page provides an overall view of event data, including playerw perform
 ### Visualizations:
 
 **1. Rating 3.0 by Country**
+
 This horizontal bar chart ranks countries by their average player performance rating (where ~1.0 is considered average). The visualization shows only countries that have 3 or more players.
 **Top Countries:**
 *   **Russia:** ~1.15
@@ -56,6 +57,7 @@ This horizontal bar chart ranks countries by their average player performance ra
 etc.
 
 **2. Matches per Map**
+
 This horizontal bar chart displays the number of competitive matches played on various CS2 maps, indicating map popularity and usage in the analyzed events.
 **Top Maps:**
 *   **Mirage:** 25 matches
@@ -111,6 +113,7 @@ This dashboard page provides a comprehensive analysis of team performance metric
 ### Visualizations:
 
 **1. Rating 3.0 by Team**
+
 **Teams ranked by their average Players Rating 3.0**:
 - **Spirit**: 1.15
 - **The MongolZ**: 1.13
@@ -120,15 +123,18 @@ This dashboard page provides a comprehensive analysis of team performance metric
 etc.
 
 **2. Team Rating 3.0 vs Swing**
+
 **Visualizes the relationship between:**
 - **Y-Axis**: Team Average Rating 3.0 (overall performance)
 - **X-Axis**: Team Swing (round impact metric)
 - **Shows**: Correlation between team rating and round impact. Each point is a team.
 
 **3. Detailed Team Statistics Table**
+
 A table for teams comparing Kills, Deaths, Swing, ADR and Rating 3.0. Liquid has the highest average kills (17) from the last big LAN tournaments.
 
 **4. ADR by Team**
+
 **Teams ranked by Average Damage per Round**:
 1. **Spirit**: 78.3
 2. **The MongolZ**: 76.6
