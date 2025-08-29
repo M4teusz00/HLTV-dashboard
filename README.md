@@ -45,34 +45,28 @@ The first page provides an overall view of event data, including playerw perform
 #### Overall Insights Page:
 ![Sample Excel Screenshot](https://github.com/M4teusz00/HLTV-dashboard/blob/a41254e078649777a89059bd152f5f53c04e317d/Overall_Insights.png)
 
-#### Visualizations
+#### Visualizations:
 
-
-#### 1. Rating 3.0 by Country
+1. **Rating 3.0 by Country**
 This horizontal bar chart ranks countries by their average player performance rating (where ~1.0 is considered average). The visualization shows only countries that have 3 or more players.
-
 **Top Countries:**
 *   **Russia:** ~1.15
 *   **Mongolia:** ~1.13
 etc.
-
-#### 2. Matches per Map
+2. **Matches per Map**
 This horizontal bar chart displays the number of competitive matches played on various CS2 maps, indicating map popularity and usage in the analyzed events.
-
 **Top Maps:**
 *   **Mirage:** 25 matches
 *   **Inferno:** 23 matches
 *   **Nuke:** 23 matches
 *   **Ancient:** 18 matches
 etc.
-
-#### 3. Cards
+3. **Cards**
 *   **Teams:** 18 - total teams that participate in the events
 *   **Matches** 52 - total matches that have been played in the events
 *   **Matches** 123 - total maps that have been played in the events
 *   **Matches** Mirage - most played map in the events
-
-#### 4. Map
+4. **Map**
 A world map shows the geographic origin (country) of all participating players.
 
 ### 2. **Players Insights**
