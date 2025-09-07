@@ -38,12 +38,12 @@ The dashboard contains 3 pages with different insights: `Overall Insights`, `Pla
 
 ### Data Filters
 The dashboard includes interactive filters to customize the view:
-*   **Event:** 
-*   **Team:** 
-*   **Player:** 
-*   **Map:**
+*   **Event** 
+*   **Team** 
+*   **Player** 
+*   **Map**
   
-On the `Players Insights` and `Teams Insights` pages, the **Maps** filter has an additional `All maps` option, which provides values for entire matches (bo3 and bo5), rather than just for one single map.
+On the `Players Insights` and `Teams Insights` pages, the **Map** filter has an additional `All maps` option, which provides values for entire matches (bo3 and bo5), rather than just for one single map.
 
 ## 1. **Overall Insights**
 The first page provides an overall view of event data, including playerw performance by country, map popularity, and participant information.
